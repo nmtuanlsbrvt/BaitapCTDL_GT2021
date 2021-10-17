@@ -1,11 +1,10 @@
 package com.tuannm2008110220.tuan02;
 
-import jdk.nashorn.internal.ir.Module.ImportEntry;
+
 
 public class Bai3Lab2 {
 import java.util.Scanner;
 
-public class Bai3Lab2 {
     public static void main(String[] args) {
         int soDien, tienDien;
         Scanner soLieu = new Scanner(System.in);
