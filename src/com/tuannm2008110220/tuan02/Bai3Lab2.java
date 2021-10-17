@@ -1,7 +1,4 @@
 package com.tuannm2008110220.tuan02;
-
-
-
 public class Bai3Lab2 {
 import java.util.Scanner;
 
