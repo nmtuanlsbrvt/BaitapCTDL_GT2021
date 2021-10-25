@@ -10,15 +10,15 @@ public class QLMTTestDrive {
 
         do {
             System.out.println("---------------MENU----------------");
-            System.out.println("1)  Nhập Danh Sách MT              |");
-            System.out.println("2)  Xuất Danh Sách MT              |");
-            System.out.println("3)  Sắp Xếp                        |");
-            System.out.println("4)  Xuất Danh Sách MT Ngẫu Nhiên   |");
-            System.out.println("5)  Tìm theo tên                   |");
-            System.out.println("6)  Kết Thúc.                      |");
+            System.out.println("1.  Nhập Danh Sách Máy Tính            |");
+            System.out.println("2.  Xuất Danh Sách Máy Tính             |");
+            System.out.println("3.  Sắp Xếp                        |");
+            System.out.println("4.  Xuất Danh Sách Máy Tính Ngẫu Nhiên   |");
+            System.out.println("5.  Tìm theo tên                   |");
+            System.out.println("6.  Kết Thúc.                      |");
             System.out.println("-----------------------------------");
 
-            System.out.println("Chọn chức năng (chọn số): ");
+            System.out.println("Chọn chức năng : ");
             int key = bienNhap.nextInt();
 
             switch (key) {
@@ -44,7 +44,7 @@ public class QLMTTestDrive {
                 break;
             }
 
-            System.out.println("Quay về MENU (y/n)?: "); // tạo nút quay về mỗi lần sài 1 chức năng !
+            System.out.println("Quay về MENU (Yes/No)?: "); // tạo nút quay về mỗi lần sài 1 chức năng !
             bienNhap.nextLine();
 
         } while (bienNhap.nextLine().equals("y"));

@@ -20,7 +20,7 @@ public class QLMT {
          bienNhap.nextLine();
          dsmaytinh.add(maytinh);
 
-         System.out.println("Thêm máy tính(y/n) ");
+         System.out.println("Thêm máy tính(Yes/No) ");
          if (bienNhap.nextLine().equals("n")) {
             break;
          }
