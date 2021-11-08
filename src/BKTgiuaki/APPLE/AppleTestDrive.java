@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class AppleTestDrive {
     public static void main(String[] args) {
-		Kho_Apple Ap = new Kho_Apple();
+		ListApple Ap = new ListApple();
 		Scanner nhap = new Scanner(System.in);
 		
 		
