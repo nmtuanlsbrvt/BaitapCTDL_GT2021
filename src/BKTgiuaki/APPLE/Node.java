@@ -34,7 +34,7 @@ public class Node {
      void inThongTin(){
          System.out.println("- Mã: "+ma);
          System.out.println("- Khối lượng: "+khoiLuong);
-         System.out.println("- Màu sắc: "+mauSac);
+         System.out.println("- Màu sắc: "+mausac);
          System.out.println("___________________________");
      }
     

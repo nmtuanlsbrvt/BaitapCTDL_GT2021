@@ -31,7 +31,7 @@ public class ListApple {
 	public void timTheoMau() {
 		System.out.println("Màu sắc cần tìm: ");
 		for (Apple apple : dsApple) {
-			if (Nhap.nextLine().equals(apple.mauSac))
+			if (Nhap.nextLine().equals(apple.mausac))
 				apple.inThongTin();
 		}
 	}
