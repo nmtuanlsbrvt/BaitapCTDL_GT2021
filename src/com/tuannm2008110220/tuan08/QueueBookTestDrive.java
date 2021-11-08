@@ -32,8 +32,10 @@ public class QueueBookTestDrive {
                 System.out.println("Lựa chọn sai");
             }
             System.out.println("Quay lại MENU (1:Yes/0:No): ");
-            
+            chon=n.nextInt();
         }
+        while (chon == 1);
+        n.close();
     }
     
 }
