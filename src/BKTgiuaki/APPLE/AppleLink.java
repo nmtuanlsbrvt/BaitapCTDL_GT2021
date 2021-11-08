@@ -28,7 +28,7 @@ public class AppleLink {
             while(current != null){
                 System.out.println("- Mã: "+current.ma);
                 System.out.println("- Khối lượng: "+current.khoiLuong);
-                System.out.println("- Màu sắc: "+current.mauSac);
+                System.out.println("- Màu sắc: "+current.mausac);
                 System.out.println("_________________________");
                 current = current.next;
             }
