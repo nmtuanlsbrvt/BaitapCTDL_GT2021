@@ -231,6 +231,7 @@ public class QLHH {
         System.out.println("Số lượng hàng Sành Sứ: "+tongSanhSu);
         System.out.println("Số lượng hàng Điện Máy: "+tongDienmay);
     }
+}
 
 }
 
